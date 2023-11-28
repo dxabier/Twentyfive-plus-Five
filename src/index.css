@@ -1,0 +1,44 @@
+body{
+    background-color: wheat;
+}
+
+#timer-label{
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.title{
+    font-size: 40px;
+    font-weight: 700;    
+}
+
+.btn{
+    border: 2px solid black;
+    font-size: 40px;
+}
+
+#time-left{
+    font-size: 70px;
+    font-weight: 900;
+}
+
+@media (max-width: 768px) {
+    .btn-primary{
+        font-size: 20px;
+        padding: 0;
+        margin-bottom: 5px;
+    }
+
+    .btn-dark{
+        font-size: 20px;
+        
+    }
+
+    #session-label{
+        margin-top: 20px;
+    }
+
+    #time-left{
+        margin: 0px;
+    }
+}
